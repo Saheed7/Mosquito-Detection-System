@@ -1,2 +1,16 @@
 # Mosquito-Detection-System
-This project Mosquito Detection System is capable of detecting mosquitoes in images and live camera feeds to help prevent mosquito-borne diseases. A YOLOv5 Enabled detection engine fine-tuned on custom mosquito datasets, with optimized inference parameters. 
+
+## 1. Create a virtual environment 
+```bash
+conda create -n mosquito python=3.11 -y
+```
+
+## 2. Activate the virtual environment
+```bash
+conda activate mosquito
+```
+
+## 3. Install the required dependencies
+```bash
+pip install -r requirements.txt
+```
